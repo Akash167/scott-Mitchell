@@ -1,0 +1,22 @@
+    <div class=" row row-equal carousel-item active">
+        {% for slider in site.data.slider %}
+          <div class="col-md-4">
+                <div class="card" style="margin-left: 25px;">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="{{ slider.path }}" alt="Carousel 1">
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <div class=" row row-equal carousel-item">
+        {% for slider in site.data.slider %}
+          <div class="col-md-4">
+                <div class="card" style="margin-left: 25px;">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="{{ slider.path }}" alt="Carousel 1">
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>

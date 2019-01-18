@@ -1,0 +1,6 @@
+{% for blog in site.data.blog %}
+	<div class="col-md-4">
+	<img src="{{ blog.path }}" class="blog_sample">
+	<h4 class="blog_text"><center>{{ blog.content }}</center></h4>
+	</div>
+{% endfor %}

@@ -1,0 +1,40 @@
+- category: nav-item
+  content: Home
+  link: #
+
+- category: nav-item
+  content: About
+  link: #
+
+
+- category: nav-item
+  content: Books
+  link: #
+
+- category: nav-item
+  content: Movies
+  link: #
+
+- category: nav-item
+  content: Courses
+  link: #
+
+
+- category: nav-item
+  content: Events
+  link: #
+
+
+- category: nav-item
+  content: Resourses
+  link: #
+
+
+- category: nav-item
+  content: Blog
+  link: #
+
+
+- category: nav-item
+  content: Sign Up/Login
+  link: #

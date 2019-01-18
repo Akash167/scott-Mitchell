@@ -1,0 +1,129 @@
+.box_red{
+  border-radius: 25px;
+  background: red;
+  padding: 20px;
+  width:22rem;
+  height: 4.5rem;
+  margin-top: 35px;
+  color: white;
+  text-align: center;
+}
+ .starter_div{
+ 	background: transparent url('assest/home-header-background.jpg') no-repeat center center /cover;
+ }
+
+ #logo_div{
+ 	width: 50%;
+ 	margin-left: 80px;
+ 	margin-top: 20px;
+ 	color: white;
+ }
+
+ .img_size{
+ 	padding: 15px;
+ 	display: block;
+ 	text-align: center;
+ 	margin-bottom: 30px;
+ }
+
+ #seen_id{
+ 	font-size: 35px;
+ 	color: red;
+ 	padding: 5px;
+ 	margin: 30px;
+ }
+
+.stone_back{
+ 	background: transparent url('assest/recommended-wall.jpg') no-repeat center center /cover;
+ 	box-shadow: inset 0 5px 10px 0 #888888;
+ }
+
+ .blog_sample{
+ 	margin-top: 100px;
+ 	margin-bottom: 15px;
+ 	margin-right: 50px;
+ 	margin-left: 50px;
+ 	border: 7px solid #B45F04;
+ 	display: block;
+ 	box-shadow: 0 4px 8px 0 #888888, 0 6px 20px 0 #888888;
+ }
+
+ .blog_text{
+ 	margin-left: 50px;
+ 	margin-right: 50px;
+ 	padding: 5px;
+ 	margin-top: 15px;
+ 	font-size: 24px;
+ 	margin-bottom: 25px;
+ 	color: #086A87;
+ }
+
+ #back_img2{
+ 	background: transparent url('assest/history-class-background.jpg') no-repeat center center /cover !important;
+ 	padding: 20px;
+ 	margin-bottom: 50px;
+ }
+
+ #back_img3{
+ 	background: transparent url('assest/webinar-chalkboard.jpg') no-repeat center center /cover !important;
+ }
+
+ #back_img4{
+	background: transparent url('assest/Rockin-wall-chalkboard.jpg') no-repeat center center /cover !important;
+}
+
+ .history_text{
+ 	color: #86B404;
+ 	font-size: 40px;
+ }
+
+ #jobs_text{
+ 	color: #86B404;
+ 	font-size: 40px;
+ }
+
+ .book_img{
+ 	margin-right: 75px;
+ 	margin-left: 125px;
+ 	width: 157px;
+ 	height: 236px;
+ 	margin-top: 20px;
+ 	box-shadow: 0 4px 8px 0 #888888, 0 6px 20px 0 #888888;
+ }
+
+
+
+
+ /*Style for slider*/
+
+
+/* equal card height */
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card {
+   width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active, 
+.carousel-inner>.row-equal.next, 
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left, 
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 250px;
+    overflow:hidden;
+}
